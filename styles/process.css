@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button[type="button"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}
+
+/* Custom Cursor */
+body, input {
+    cursor: url('../img/cursor.png'), auto;
+}
+
+body:active, input:active {
+    cursor: url('../img/cursor-2.png'), auto;
+}
